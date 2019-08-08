@@ -1,0 +1,12 @@
+spring:
+  mail:
+    host: smtp.163.com
+    port: 25
+    username: muniaotec@163.com
+    password: woshi222
+    default-encoding: utf-8
+    properties:
+      mail:
+        debug: true
+        smtp:
+          socketFactoryClass: javax.net.ssl.SSLSocketFactory
